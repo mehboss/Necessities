@@ -1,0 +1,95 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Necessities plugin by MehBoss (created on 2/2/2017)                                               #
+# Version v2.6.2                                                                                    #
+#                                                                                                   #                      
+#                                                                                                   #
+#                                                                                                   #
+# Every block walked it takes away '1' from you weight.. (CONFIGURABLE)                             #
+#     CONFIG PLACE HOLDERS:                                                                         #
+#       %PERMISSION% = gets replaced with one of the permissions depending on which command you did #
+#       %AMOUNT% = gets replaced with the amount added                                              #
+#                                                                                                   #
+#     SCOREBOARD PLACE HOLDERS:                                                                     #
+#       %necessities_weight%                                                                        #
+#       %necessities_bladder%                                                                       #
+#   MUST HAVE PLACEHOLDERAPI INSTALLED TO WORK                                                      #
+#                                                                                                   #
+# Sounds:                                                                                           #
+# ( ! ) 1.11 SOUNDS AND 1.8 SOUNDS CHANGED! FIND 1.11 SOUNDS ON MINECRAFT WIKI.. ( ! )              #
+#               https://dev.bukkit.org/projects/justsound/pages/sound-list                          #
+#                                                                                                   #
+#            CHANGE THE SOUND STRING TO 'none' IF YOU DON'T WANT A SOUND PLAYED                     #
+#                                  WHEN YOU USE THE BATHROOM.                                       #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                                                   #
+# PERMS: | necessities.bathroom (DEFAULT) | necessities.bladder (DEFAULT) |                         #
+#        | necessities.weight (DEFAULT) | necessities.reload                                        #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+Items:
+  CARROT: 10
+  APPLE: 10
+  COOKED_BEEF: 10
+  BEEF: 10
+  COOKED_CHICKEN: 10
+  CHICKEN: 10
+  COOKED_PORKCHOP: 10
+  PORKCHOP: 10
+  COOKED_MUTTON: 10
+  MUTTON: 10
+  MUSHROOM_STEW: 10
+  BREAD: 10
+  GOLDEN_APPLE: 10
+  FISH: 10
+  COOKED_FISH: 10
+  CAKE: 10
+  COOKIE: 10
+  MELON: 10
+  ROTTON_FLESH: 10
+  SPIDER_EYE: 10
+  POTATO: 10
+  BAKED_POTATO: 10
+  POISONOUS_POTATO: 10
+  PUMPKIN_PIE: 10
+  RABBIT: 10
+  COOKED_RABBIT: 10
+  RABBIT_STEW: 10
+Potion-Drink:
+  Thirst: 10
+Blocks-Walked:
+  Walked-Blocks: 2
+  Weight-Removed: 1
+Bathroom-Use:
+  Block: 'CAULDRON'
+  Sound: 'LEVEL_UP'
+  Automatic-Use: 'true'
+  Automatic-Use-Seconds: 5
+  Player-Effect: 'true'
+Messages:
+  Prefix: '&8[&e&lNecessities&8] '
+  Time: '&7Wait %time% seconds until your bladder has been fully emptied...'
+  Use-Bathroom-Automatic: '&7You can not use this command because your bladder automatically empties while standing on the required item!'
+  Full-Bladder: '&7You can''t drink this, your bladder is full. You must use the bathroom!'
+  Max-Weight: '&7You can''t do this, you have max weight compacity. You must walk to lose weight!'
+  Predict-Weight-Increase: '&7You can''t eat this, you will have max weight compacity!'
+  Predict-Bladder-Increase: '&7You can''t drink this, you will have a full bladder!'
+  Weight-Increase: '&7You filled your stomach. Your weight has increased by %AMOUNT%'
+  Bladder-Increase: '&7You hydrated yourself. Your bladder has filled up by %AMOUNT%'
+  Not-On-Cauldron: '&7You have to be on a cauldron to use the bathroom!'
+  Bladder-Empty: '&7Your bladder is empty'
+  Use-Bathroom: '&7You emptied your bladder using the toilet.. your bladder is now empty'
+  No-Perm: '&cYou do not have the permission &8(&a%PERMISSION%&8)&c to execute this command.'
+  Bladder-Total: '&a&lBladder &8>> &7%AMOUNT%&8/&7100'
+  Weight-Total: '&a&lWeight &8>> &7%AMOUNT%&8/&7100'
+  Not-Enabled: '&7This feature is disabled!'
+  Reload: '&aNecessities has been reloaded!'
+  Invalid-Args: '&aInvalid arguments! Please use /necessities help'
+Toggle:
+  Weight-Enabled: 'true'
+  Bladder-Enabled: 'true'
+  
+  
+  
+  
+  
+      
+  

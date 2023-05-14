@@ -1,0 +1,26 @@
+name: Necessities
+version: 2.6.2
+main: me.mehboss.necessities.Bathroom
+author: mehboss
+commands:
+  usebathroom:
+    description: Uses the bathroom.
+  bladder:
+    description: Checks how full your bladder is.
+  weight:
+    description: Checks how much weight you have.
+  necessities:
+    description: Shows the help page.
+  necessitiesreload:
+    description: Reloads the plugin.
+permissions:
+  necessities.bathroom:
+    description: Gives a player access to /bathroom
+    default: true
+  necessities.bladder:
+    description: Gives a player access to /bladder
+    default: true
+  necessities.weight:
+    description: Gives a player access to /weight
+    default: true
+softdepend: [PlaceholderAPI]
