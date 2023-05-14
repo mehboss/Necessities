@@ -32,7 +32,7 @@ import org.bukkit.potion.PotionEffectType;
 public class Weight implements Listener, CommandExecutor {
 
 	/**
-	 * Made by mehboss on 2/2/2017
+	 * Made by mehboss on 2/2/2017 TO DO: Create own data file for information
 	 */
 
 	HashMap<UUID, Location> location = new HashMap<UUID, Location>();
