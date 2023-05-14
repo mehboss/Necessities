@@ -1,5 +1,17 @@
 package me.mehboss.necessities;
 
+/*
+ * Mozilla Public License v2.0
+ * 
+ * Author: Mehboss
+ * Copyright (c) 2023 Mehboss
+ * Spigot: https://www.spigotmc.org/resources/authors/mehboss.139036/
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
